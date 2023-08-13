@@ -1,0 +1,30 @@
+.wrapper {
+    background: url(../../../public/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.video {
+    width: 100%;
+}
+
+.invite {
+    background-color: var(--primary-color);
+}
+
+.invite .invite-content span {
+    color: #fff;
+    text-align: justify;
+    padding: 5px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: var(--primary-color);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.wrapper .menu {
+    width: 22px;
+}
+
+.wrapper .header_logo {
+    width: 70px;
+}
+
+.wrapper .chat {
+    width: 22px;
+}

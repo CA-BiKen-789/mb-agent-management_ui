@@ -1,0 +1,43 @@
+.wrapper {
+    height: 62%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #000;
+    border-radius: 47.5px;
+    cursor: pointer;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.background {
+    background: var(--linear, linear-gradient(180deg, #666 0%, #000 100%));
+    border-radius: 17.5px 17.5px 0px 0px;
+}
+
+.content-dropdown {
+    padding: 20px;
+    border-radius: 0px 0px 17.5px 17.5px;
+    background: #ffe6c2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+span {
+    font-size: 10px;
+    color: #313131;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: block;
+    cursor: default;
+}
+
+.title {
+    display: block;
+    color: #313131;
+    font-weight: 700;
+    text-transform: capitalize;
+}

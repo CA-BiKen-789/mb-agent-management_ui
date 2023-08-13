@@ -1,0 +1,19 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 16px 0;
+}
+
+.title span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.title img {
+    width: 16px;
+}
