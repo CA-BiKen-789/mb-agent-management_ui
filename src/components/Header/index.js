@@ -1,14 +1,25 @@
 import classNames from 'classnames/bind';
 import styles from './Header.module.css';
+import Sidebar from '~/components/Sidebar';
+import Backdrop from '~/components/Backdrop';
+import Toolbar from '~/components/Toolbar';
+import { useState } from 'react';
 
 const cx = classNames.bind(styles);
 
 function Header() {
+
+	const [sidebar, setSidebar] = useState(false);
+
+	const toggleSidebar = () => {
+		setSidebar((prevState) => !prevState);
+	}
+
 	return (
 		<div className={cx('wrapper')}>
-			<img className={cx('menu')} src='/images/menu.png' alt='Menu' />
-			<img className={cx('header_logo')} src='/images/header_logo.png' alt='Logo' />
-			<img className={cx('chat')} src='/images/chat.png' alt='Chat' />
+			<Toolbar openSidebar={toggleSidebar} />
+			<Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
+			<Sidebar sidebar={sidebar} />
 		</div>
 
 	);

@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80%;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: all 0.4s;
+}
+
+.wrapper a {
+    color: #fff;
+    padding: 25px 45px;
+    text-transform: uppercase;
+}
+
+.wrapper a:hover {
+    background: var(
+        --linear,
+        linear-gradient(180deg, #f9a631 0%, #ff5f0c 100%)
+    );
+}
+
+.wrapper--open {
+    transform: translateX(0%);
+}
