@@ -18,13 +18,94 @@
     background-color: var(--primary-color);
 }
 
+.invite .invite-content {
+    padding: 5px;
+}
+
 .invite .invite-content span {
     color: #fff;
     text-align: justify;
-    padding: 5px;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
     text-transform: capitalize;
+}
+
+.discount {
+    background-color: var(--primary-color);
+    padding: 5px;
+}
+
+.discount h1 {
+    color: #ff5c00;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%; /* 42px */
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.discount h2 {
+    color: #ff5c00;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 39px */
+    text-transform: capitalize;
+}
+
+.discount span {
+    display: block;
+    color: #fff;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%; /* 36px */
+    text-transform: capitalize;
+}
+
+.discount img {
+    width: 100%;
+}
+
+.thumbnail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.dropdown {
+    margin-top: 10px;
+}
+
+.contact-info {
+    color: #fff;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: capitalize;
+    background-color: var(--primary-color);
+    padding: 5px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.contact img {
+    width: 32%;
 }

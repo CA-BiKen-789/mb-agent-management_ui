@@ -5,6 +5,7 @@ import Banner from '~/components/Banner';
 import Title from '~/components/Title';
 import Intro from '~/components/Intro';
 import Dropdown from '~/components/Dropdown';
+import Thumbnail from '~/components/Thumbnail';
 
 const cx = classNames.bind(styles);
 
@@ -130,6 +131,115 @@ function Home() {
 						<span>Chào đón mùa xuân mới - khởi đầu mới 2023 và để kỷ niệm sự kiện Luis Suárez trở thành Đại Sứ Độc Quyền chính thức tại 789BET. 789BET trân trọng kính mời Quý Đại Lý hợp tác tham gia vào hệ thống kinh doanh cùng phát triển với chế độ ưu đãi Hoa Hồng Siêu Khủng lên tới 60% bắt đầu từ 01/01/2023.</span>
 						<span>Dù Bạn là Ai đều được chào đón trở thành đối tác của Chúng Tôi, với phương châm cùng hợp tác phát triển bền vững, Chúng Tôi cam kết hợp tác lâu dài và hỗ trợ tối đa tới các Đại Lý trong suốt quá trình hoạt động.</span>
 					</span>
+				</div>
+				<div className={cx('discount')}>
+					<h1>a. Hoa hồng đại lý</h1>
+					<h2>1. Đại lý mới</h2>
+					<span>
+						03 tháng đầu tiên tỷ lệ hoa hồng khởi điểm 55%
+					</span>
+					<img src='/images/discount_1.png' alt='Bảng 1' />
+					<span>- Tiền thưởng cược hợp lệ 03 tháng đầu tiên</span>
+					<img src='/images/discount_2.png' alt='Bảng 2' />
+					<h2>2. Đại lý cũ</h2>
+					<img src='/images/discount_3.png' alt='Bảng 3' />
+					<h2>3. đại lý Không đạt chỉ tiêu</h2>
+					<img src='/images/discount_4.png' alt='Bảng 4' />
+					<span>
+						- Đại Lý trong tháng không đủ chỉ tiêu thành viên mới nếu có 5 thành viên hợp lệ (bao gồm cả cũ và mới ) sẽ nhận được 30% hoa hồng.
+					</span>
+					<h1>B. HOA HỒNG VÀ TIỀN THƯỞNG</h1>
+					<span>- Công thức tính Hoa Hồng: (Tổng Tiền thắng thua - Hoàn trả - Khuyến mãi - Các hoạt động sự kiện ) - ( Tổng tiền thắng thua x10% phí quản lý) x % lợi nhuận. </span>
+					<span>- Hoa Hồng sẽ được phát trước ngày 05 hàng tháng. </span>
+					<span>- Toàn bộ Tiền Hoa Hồng sẽ được phát trực tiếp vào ngân hàng mới nhất do Đại Lý cung cấp.</span>
+					<h1>C. Định nghĩa</h1>
+					<span>- Thành viên mới hợp lệ trong tháng: có tích luỹ 3 lần nạp trở lên, tổng nạp trên 2 triệu, đồng thời cược hợp lệ trên 5 triệu</span>
+					<span> - Thành viên hợp lệ trong tháng: Thành viên cũ và mới có tích luỹ 3 lần nạp trở lên, tổng nạp trên 2 triệu, đồng thời cược hợp lệ trên 5 triệu.</span>
+					<span>- Lợi Nhuận Âm: (Tổng Tiền thắng thua - Hoàn trả - Khuyến mãi - Các hoạt động sự kiện).</span>
+					<span> - Lợi Nhuận Dương: Tổng Tiền thắng thua + Hoàn trả + Khuyến mãi + Các hoạt động sự kiện ). Nếu Đại Lý có lợi nhuận dương thì sẽ trừ vào lợi nhuận các tháng sau cho tới khi hết lợi nhuận dương.</span>
+					<span>- Chương trình này không áp dụng cho sản phẩm xổ số. Thành viên lạm dụng, gian lận hoặc nhiều tài khoản không được tính là hợp lệ.</span>
+					<span>* Yêu cầu đối với Đại Lý:</span>
+					<span>- Có lịch sử đăng nhập ít nhất 5 ngày.</span>
+					<span>- Tài khoản game của đại lý không nằm dưới link đại lý của chính mình.</span>
+					<span>- Đại lý không hoạt động trong vòng 2 tháng kể từ thời điểm đăng ký, 789BET có quyền chấm dứt hợp tác với tài khoản đại lý đó. Nếu muốn tiếp tục tham gia và hợp tác, yêu cầu tạo tài khoản đăng ký đại lý mới.</span>
+					<span>- 789BET có quyền chấm dứt chương trình này nếu trong quá trình hợp tác Đại Lý vi phạm quy định hay gian lận làm ảnh hưởng đến tính công bằng cho những Đại Lý chân chính khác. </span>
+					<span>- Nghiêm cấm các Đại Lý thực hiện chạy quảng cáo GOOGLE và SEO từ khóa chính 789BET, nếu hệ thống phát hiện sẽ cắt giảm từ 10% tới 50% tổng hoa hồng của tháng đó.</span>
+					<h1>D. Thư ngõ</h1>
+					<span>- Chương trình Đại Lý 789BET là một hệ thống thúc đẩy thị trường chuyên nghiệp được sử dụng rộng rãi bởi cá nhân cũng như công ty, với mục đích quảng bá công ty cá cược hàng đầu đến với khách hàng.</span>
+					<span>- Chúng Tôi trân trọng gửi đến Quý Đại Lý thư ngỏ này với mong muốn Quý khách hàng có thêm sự lựa chọn và Chúng Tôi có thêm khách hàng thân thiết mới. 789BET tin tưởng vào sự thành công tốt đẹp trong quá trình hợp tác giữa Công ty và Quý đối tác. Mọi hình thức hợp tác, vui lòng liên hệ trực tiếp với Chúng Tôi qua telegram: @Cskh789bet.</span>
+				</div>
+				<Title>Lợi ích hợp tác </Title>
+				<div className={cx('thumbnail')}>
+					<Thumbnail>
+						<img src="/images/versatile.png" alt="Đa Năng" />
+						<h1>
+							Đa Năng
+						</h1>
+						<span>
+							Không phải chịu bất kỳ chi phí nào khi đăng ký, không giới hạn thu nhập, kiếm tiền mọi lúc mọi nơi.
+						</span>
+					</Thumbnail>
+					<Thumbnail>
+						<img src="/images/stable.png" alt="Đa Năng" />
+						<h1>
+							ổn định
+						</h1>
+						<span>
+							Không phải chịu bất kỳ chi phí nào khi đăng ký, không giới hạn thu nhập, kiếm tiền mọi lúc mọi nơi.
+						</span>
+					</Thumbnail>
+					<Thumbnail>
+						<img src="/images/support.png" alt="Đa Năng" />
+						<h1>
+							Hỗ trợ
+						</h1>
+						<span>
+							Không phải chịu bất kỳ chi phí nào khi đăng ký, không giới hạn thu nhập, kiếm tiền mọi lúc mọi nơi.
+						</span>
+					</Thumbnail>
+					<Thumbnail>
+						<img src="/images/sp_speed.png" alt="Đa Năng" />
+						<h1>
+							Siêu tốc
+						</h1>
+						<span>
+							Không phải chịu bất kỳ chi phí nào khi đăng ký, không giới hạn thu nhập, kiếm tiền mọi lúc mọi nơi.
+						</span>
+					</Thumbnail>
+				</div>
+				<Title>Làm sao để thu nhập tiền tỉ </Title>
+				<div className={cx('dropdown')}>
+					<Dropdown
+						urlImage='/images/register_account.png'
+						title="Đăng ký tài khoản"
+					>
+						<span>
+							Click vào mục "Đăng Ký" và điền chính xác những thông tin bắt buộc. Sau đó bạn cần liên hệ đến Telegram: Đại lý 789bet hoặc bộ phận CSKH 24/7 789BET để được hỗ trợ hoàn thành thủ tục đăng ký.
+						</span>
+					</Dropdown>
+					<Dropdown
+						urlImage='/images/approval.png'
+						title="Liên hệ chuyên viên xét duyệt"
+					>
+						<span>
+							Đơn đăng ký hợp tác sau khi tạo thành công cần liên hệ đến NEW88 để được xét duyệt, sau khi đạt thỏa thuận về chính sách hợp tác chuyên viên hỗ trợ sẽ kích hoạt tài khoản đại lý và link liên kết cho bạn.
+						</span>
+					</Dropdown>
+					<Dropdown
+						urlImage='/images/discount.png'
+						title="Nhận hoa hồng hằng tháng"
+					>
+						<span>
+							Dữ liệu tính toán sẽ được thống kê từ 00:00 giờ ngày đầu tiên của tháng đến 23:59:59 (GMT+8) ngày cuối cùng của tháng. Thời gian thanh toán từ ngày 3 đến ngày 5 đầu tháng kế tiếp kèm theo báo cáo đại lý. Hoa hồng lên đến 60% sẽ được chuyển khoản trực tiếp vào tài khoản ngân hàng đại lý cung cấp trước đó.
+						</span>
+					</Dropdown>
+				</div>
+				<Title>Thông tin liên hệ</Title>
+				<span className={cx('contact-info')}>Nếu bạn gặp bất cứ vấn đề gì khi đăng ký thành viên, tham gia trò chơi hoặc cần giải đáp bất kỳ thông tin nào trên website của 789BET. Hãy liên hệ trực tiếp với dịch vụ Chăm sóc khách hàng trực tuyến 24/7 của chúng tôi. Chúng tôi sẽ ngay lập tức giải quyết vấn đề giúp bạn.</span>
+				<div className={cx('contact')}>
+					<img src='/images/customer_care.png' alt='Chăm sóc khách hàng' />
+					<img src='/images/phone.png' alt='Điện thoại' />
+					<img src='/images/email.png' alt='Email' />
 				</div>
 			</div>
 		</div >
