@@ -1,5 +1,5 @@
 .wrapper {
-    width: 80px;
+    width: 24%;
     height: 136px;
     border-radius: 18px;
     background: var(--linear, linear-gradient(180deg, #666 0%, #000 100%));
